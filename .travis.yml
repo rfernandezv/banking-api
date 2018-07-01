@@ -1,0 +1,12 @@
+---
+language: java
+sudo: false
+script: mvn clean verify
+
+deploy:
+   provider: cloudfoundry
+   username: richar.fernandezv@gmail.com
+   password: ric.fevil.Pivotal.123
+   api: https://api.run.pivotal.io
+   organization: rfernandezv
+   space: qa

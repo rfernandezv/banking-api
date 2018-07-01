@@ -1,0 +1,7 @@
+---
+applications:
+- name: banking-qa
+  path: /home/travis/build/rfernandezv/banking-api/target/banking-0.1.jar
+  memory: 1024M
+  instances: 1
+  random-route: true
